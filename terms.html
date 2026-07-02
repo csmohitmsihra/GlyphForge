@@ -1,213 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms & Conditions — GlyphForge</title>
-
+    <title>Terms & Conditions - GlyphForge</title>
     <link rel="icon"
-        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23ff2d6f'/%3E%3Ctext x='50' y='58' font-size='48' text-anchor='middle' fill='white' font-family='Arial'%3EG%3C/text%3E%3C/svg%3E">
-
-    <style>
-        :root {
-            --bg1: #07070a;
-            --bg2: #0f0f18;
-            --card: #0f1016;
-            --accent: #00ffd5;
-            --accent2: #ff2d6f;
-        }
-
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, var(--bg1), var(--bg2));
-            color: #e6eef6;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 50px auto;
-            padding: 25px;
-            background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent);
-            border-radius: 14px;
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7);
-        }
-
-        h1 {
-            text-align: center;
-            color: var(--accent);
-        }
-
-        .point {
-            margin-top: 20px;
-            padding: 15px;
-            border-radius: 10px;
-            background: #11131a;
-            border-left: 4px solid var(--accent);
-            transition: 0.2s;
-        }
-
-        .point:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 0 15px rgba(0, 255, 213, 0.2);
-        }
-
-        .point h3 {
-            margin: 0;
-            color: var(--accent2);
-            font-size: 18px;
-        }
-
-        .point p {
-            margin: 8px 0 0;
-            color: #cdd6df;
-            font-size: 14px;
-        }
-
-        .icon {
-            font-size: 18px;
-            margin-right: 8px;
-        }
-
-        .footer {
-            margin-top: 30px;
-            text-align: center;
-            font-size: 13px;
-            color: #6f8aa0;
-        }
-
-        a {
-            color: var(--accent);
-            text-decoration: none;
-        }
-
-        /* ---------------- PARTICLE BACKGROUND ---------------- */
-
-        /* Moving glow blobs */
-        body::before,
-        body::after {
-            content: "";
-            position: fixed;
-            inset: -20%;
-            z-index: -1;
-            pointer-events: none;
-            filter: blur(80px);
-            opacity: 0.5;
-        }
-
-        /* Cyan glow */
-        body::before {
-            background: radial-gradient(circle at 20% 30%, #00ffd5 0%, transparent 20%),
-                radial-gradient(circle at 70% 60%, #00eaff 0%, transparent 20%);
-            animation: float1 12s linear infinite;
-        }
-
-        /* Pink glow */
-        body::after {
-            background: radial-gradient(circle at 80% 20%, #ff2d6f 0%, transparent 20%),
-                radial-gradient(circle at 30% 80%, #ff6a9f 0%, transparent 20%);
-            animation: float2 14s linear infinite;
-        }
-
-        /* subtle grid particles */
-        html::before {
-            content: "";
-            position: fixed;
-            inset: 0;
-            z-index: -2;
-            background-image:
-                radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px);
-            background-size: 35px 35px;
-            opacity: 0.2;
-        }
-
-        /* animations */
-        @keyframes float1 {
-            0% {
-                transform: translateY(0px) translateX(0px);
-            }
-
-            50% {
-                transform: translateY(-40px) translateX(30px);
-            }
-
-            100% {
-                transform: translateY(0px) translateX(0px);
-            }
-        }
-
-        @keyframes float2 {
-            0% {
-                transform: translateY(0px) translateX(0px);
-            }
-
-            50% {
-                transform: translateY(40px) translateX(-30px);
-            }
-
-            100% {
-                transform: translateY(0px) translateX(0px);
-            }
-        }
-    </style>
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23ff2d6f'/%3E%3Ctext x='50' y='58' font-size='48' text-anchor='middle' fill='white' font-family='Arial'%3EG%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="frame.css">
 </head>
-
 <body>
 
-    <div class="container">
+    <div class="frame-box">
+        <h1>Terms & Conditions</h1>
+        
+        <p>Welcome to TechZno Talks. By using our services, you agree to the following terms:</p>
 
-        <h1>📜 Terms & Conditions</h1>
-        <p style="text-align:center;color:#9fb3c6;">
-            Last Updated: 03/22/2026
-        </p>
+        <h3>1. Use of the Service</h3>
+        <p>Our tools are provided for educational and informational purposes only.</p>
 
-        <div class="point">
-            <h3>⚙️ Use of Service</h3>
-            <p>GlyphForge provides a free QR code generator for personal, educational, and professional use. You agree
-                to use the service lawfully.</p>
-        </div>
+        <h3>2. Restrictions</h3>
+        <p>You may not misuse, copy, or distribute our content without permission.</p>
 
-        <div class="point">
-            <h3>🛡️ User Responsibility</h3>
-            <p>You are responsible for the content you create. Do not use GlyphForge for illegal, harmful, misleading,
-                or abusive purposes.</p>
-        </div>
+        <h3>3. Privacy</h3>
+        <p>We do not collect personal information unless provided voluntarily.</p>
 
-        <div class="point">
-            <h3>🔐 Privacy & Data</h3>
-            <p>All QR codes are generated locally in your browser. We do not store or track your QR data. Contact form
-                data is used only for communication.</p>
-        </div>
+        <h3>4. Responsibility</h3>
+        <p>TechZno Talks is not responsible for outcomes caused by incorrect usage of tools.</p>
 
-        <div class="point">
-            <h3>🌐 External Links</h3>
-            <p>We are not responsible for content or security of third-party websites linked through QR codes.</p>
-        </div>
+        <h3>5. Updates</h3>
+        <p>We may revise these terms anytime. Continued use indicates acceptance.</p>
 
-        <div class="point">
-            <h3>📌 Intellectual Property</h3>
-            <p>All content, branding, and design belong to GlyphForge (TechZno Talks). Unauthorized use is prohibited.
-            </p>
-        </div>
-
-        <div class="point">
-            <h3>⚠️ Limitation & Changes</h3>
-            <p>The service is provided “as is”. We may modify or discontinue features at any time without notice.</p>
-        </div>
-
-        <div class="footer">
-
-            🚀 Powered by GlyphForge | TechZno Talks ❤️
-        </div>
-
-        <div style="text-align:center;margin-top:15px;">
-            <a href="index.html">⬅ Back to Home</a>
-        </div>
-
+        <p>For help contact: <strong>techznotalks@gmail.com</strong></p>
     </div>
 
-</body>
 
+</body>
 </html>
